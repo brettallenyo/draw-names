@@ -1,0 +1,8 @@
+sender: bob@gmail.com
+people:
+  brett:
+    email: "brett@gmail.com"
+  adam:
+    email: "adam@gmail.com"
+  eve:
+    email: "eve@gmail.com"
