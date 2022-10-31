@@ -8,17 +8,22 @@ When creating a permutation of assignments, we can handle it in multiple ways. L
 3. For each person, randomly select a person from the list
 4. If the person does not have an assignment, assign them
 5. Otherwise find another random person
+
 ##
+
 We could encounter the following bad formations for four people:
 
 <img src="./images/boring.jpeg" alt="boring" width="200"/>
 This is boring
 
+
 <img src="./images/trouble.jpeg" alt="trouble" width="200"/>
 This will leave someone out
 
+
 <img src="./images/perfect.jpeg" alt="perfect" width="200"/>
 This is exactly what we're looking for
+
 ##
 
 To resolve this issue we can perform the following algorithm:
