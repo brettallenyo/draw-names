@@ -1,8 +1,13 @@
-sender: bob@gmail.com
+sender: EMAIL
+password: PASSWORD
+host: smtp.gmail.com
+seed: RANDOM_NUMBER
 people:
-  brett:
-    email: "brett@gmail.com"
-  adam:
-    email: "adam@gmail.com"
-  eve:
-    email: "eve@gmail.com"
+  - name: "NAME_1"
+    email: "name_1@mit.edu"
+  - name: "NAME_2"
+    email: "name_2@mit.edu"
+  - name: "NAME_3"
+    email: "name_3@mit.edu"
+  - name: "NAME_4"
+    email: "name_4@mit.edu"

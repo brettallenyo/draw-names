@@ -5,3 +5,5 @@ Does the same thing as drawnames.com but without adding your email and getting s
 
 Create a config like the example provided called `config.yml`
 Run: `./draw-names.py`
+
+Must Generate an App Password: https://devanswers.co/create-application-specific-password-gmail/
