@@ -13,13 +13,13 @@ When creating a permutation of assignments, we can handle it in multiple ways. L
 
 We could encounter the following bad formations for four people:
 
-This is boring
+This is boring<br>
 <img src="./images/boring.jpeg" alt="boring" width="200"/>
 
-This will leave someone out
+This will leave someone out<br>
 <img src="./images/trouble.jpeg" alt="trouble" width="200"/>
 
-This is exactly what we're looking for
+This is exactly what we're looking for<br>
 <img src="./images/perfect.jpeg" alt="perfect" width="200"/>
 
 ##
