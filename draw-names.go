@@ -42,7 +42,6 @@ func readConf(filename string) (*Conf, error) {
 }
 
 func createAssignments(config *Conf) *Node {
-	fmt.Println(config)
 	nodes := []*Node{}
 	for _, person := range config.People {
 		nodes = append(nodes, &Node{Name : person.Name, Email : person.Email})
@@ -86,5 +85,5 @@ func sendEmails(configFile string) {
 
 
 func main() {
-	sendEmails("./config.yml")
+	sendEmails(os.Args[1])
 }
